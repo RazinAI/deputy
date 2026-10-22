@@ -66,4 +66,4 @@ Deputy runs on your computer: pages, form values and cookies go only between you
 
 ## Help
 
-Docs: [deputy.docs.razin.ai](https://deputy.docs.razin.ai) · Support: [hello@razin.ai](mailto:hello@razin.ai) · Site: [deputy.razin.ai](https://deputy.razin.ai)
+Docs: [deputy.docs.razin.ai](https://deputy.docs.razin.ai) · Support: [hello@razin.ai](mailto:hello@razin.ai) · Homepage: [razin.ai/deputy](https://razin.ai/deputy)

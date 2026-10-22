@@ -8,7 +8,7 @@
     "email": "hello@razin.ai",
     "url": "https://razin.ai"
   },
-  "homepage": "https://deputy.razin.ai",
+  "homepage": "https://razin.ai/deputy",
   "repository": "https://github.com/RazinAI/deputy",
   "license": "PolyForm-Shield-1.0.0",
   "keywords": ["browser", "webmcp", "mcp", "chrome-extension", "forms", "automation", "frontend"],
