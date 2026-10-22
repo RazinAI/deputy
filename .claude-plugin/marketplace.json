@@ -6,7 +6,7 @@
     "url": "https://razin.ai"
   },
   "metadata": {
-    "description": "Razin's plugins for Claude Code."
+    "description": "Deputy: the browser you already have open, as typed tools for your coding agent."
   },
   "plugins": [
     {

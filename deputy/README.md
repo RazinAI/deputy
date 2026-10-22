@@ -1,14 +1,14 @@
-# Deputy for Claude Code
+# Deputy
 
-Deputy lets Claude Code use the browser you already have open, signed in as you. It turns the page in front of you into typed tools: a whole form is one call, and the page never has to be screenshotted to be understood.
+Deputy lets your coding agent (Claude Code, Codex, Gemini CLI, Copilot, Cursor and more) use the browser you already have open, signed in as you. It turns the page in front of you into typed tools: a whole form is one call, and the page never has to be screenshotted to be understood.
 
-## Install
+## Install in Claude Code
 
 1. **Add the Deputy extension to Chrome** (or Edge, Brave and other Chromium browsers): [Chrome Web Store](https://chromewebstore.google.com/detail/deputy/ofcadhlipiciahelmcjofblnjhmjoepm). Pin it to your toolbar.
 2. **Add the plugin in Claude Code:**
 
    ```
-   /plugin marketplace add RazinAI/claude-plugins
+   /plugin marketplace add RazinAI/deputy
    /plugin install deputy@razin
    ```
 
@@ -24,12 +24,12 @@ This repo also installs in agents that read Claude Code plugins, and as a Gemini
 
 | Agent | Install |
 |---|---|
-| Codex | `codex plugin marketplace add RazinAI/claude-plugins`, then `codex plugin add deputy@razin` |
-| GitHub Copilot CLI | `copilot plugin install RazinAI/claude-plugins:deputy` |
-| Gemini CLI | `gemini extensions install https://github.com/RazinAI/claude-plugins` |
-| Qwen Code | `qwen extensions install RazinAI/claude-plugins:deputy` |
-| Factory Droid | `droid plugin marketplace add https://github.com/RazinAI/claude-plugins`, then `droid plugin install deputy@razin --scope user` |
-| Devin CLI | `devin plugins install RazinAI/claude-plugins#deputy` |
+| Codex | `codex plugin marketplace add RazinAI/deputy`, then `codex plugin add deputy@razin` |
+| GitHub Copilot CLI | `copilot plugin install RazinAI/deputy:deputy` |
+| Gemini CLI | `gemini extensions install https://github.com/RazinAI/deputy` |
+| Qwen Code | `qwen extensions install RazinAI/deputy:deputy` |
+| Factory Droid | `droid plugin marketplace add https://github.com/RazinAI/deputy`, then `droid plugin install deputy@razin --scope user` |
+| Devin CLI | `devin plugins install RazinAI/deputy#deputy` |
 | Cursor | [![Add Deputy to Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=deputy&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsImRlcHV0eS1tY3AiXX0%3D) |
 | VS Code | [![Add Deputy to VS Code](https://img.shields.io/badge/VS_Code-Add_Deputy-0098FF?logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=deputy&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22deputy-mcp%22%5D%7D) |
 
