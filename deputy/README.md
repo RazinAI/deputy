@@ -18,6 +18,23 @@ Deputy needs [Node.js](https://nodejs.org) 20 or later; the plugin starts it wit
 
 Added Deputy before with `claude mcp add`? Remove that entry, so Deputy doesn't run twice: `claude mcp remove deputy` (add `--scope user` if you added it that way).
 
+## Other agents
+
+This repo also installs in agents that read Claude Code plugins, and as a Gemini CLI extension. Step 1 above (the Chrome extension) is the same for all of them.
+
+| Agent | Install |
+|---|---|
+| Codex | `codex plugin marketplace add RazinAI/claude-plugins`, then `codex plugin add deputy@razin` |
+| GitHub Copilot CLI | `copilot plugin install RazinAI/claude-plugins:deputy` |
+| Gemini CLI | `gemini extensions install https://github.com/RazinAI/claude-plugins` |
+| Qwen Code | `qwen extensions install RazinAI/claude-plugins:deputy` |
+| Factory Droid | `droid plugin marketplace add https://github.com/RazinAI/claude-plugins`, then `droid plugin install deputy@razin --scope user` |
+| Devin CLI | `devin plugins install RazinAI/claude-plugins#deputy` |
+| Cursor | [![Add Deputy to Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=deputy&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsImRlcHV0eS1tY3AiXX0%3D) |
+| VS Code | [![Add Deputy to VS Code](https://img.shields.io/badge/VS_Code-Add_Deputy-0098FF?logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=deputy&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22deputy-mcp%22%5D%7D) |
+
+OpenCode, Pi, Crush, Kimi Code, Kilo Code, Grok, Qoder, Hermes, Letta Code, Mastra Code and any other MCP client: one line or file for each at [deputy.docs.razin.ai/docs/connecting](https://deputy.docs.razin.ai/docs/connecting).
+
 ## Free and Pro
 
 | | Free | Pro |

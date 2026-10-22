@@ -1,0 +1,12 @@
+{
+  "name": "deputy",
+  "version": "1.0.0",
+  "description": "Use the browser you already have open as typed tools: forms in one call, no screenshots needed. Free to start; Pro adds screenshots, console, network and hosted models. Needs the Deputy Chrome extension.",
+  "mcpServers": {
+    "deputy": {
+      "command": "npx",
+      "args": ["-y", "deputy-mcp"]
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
