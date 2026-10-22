@@ -1,0 +1,19 @@
+{
+  "name": "deputy",
+  "displayName": "Deputy",
+  "version": "1.0.0",
+  "description": "Use the browser you already have open, signed in as you: Deputy turns the page into typed tools, so a whole form is one call and pages never need screenshots to be understood. Free: open, read, fill and click. Pro ($9.99/month) adds screenshots, tabs, console, network and hosted models. Needs the Deputy Chrome extension.",
+  "author": {
+    "name": "Razin",
+    "email": "hello@razin.ai",
+    "url": "https://razin.ai"
+  },
+  "homepage": "https://deputy.razin.ai",
+  "repository": "https://github.com/RazinAI/claude-plugins",
+  "license": "PolyForm-Shield-1.0.0",
+  "keywords": ["browser", "webmcp", "mcp", "chrome-extension", "forms", "automation", "frontend"],
+  "documentationUrl": "https://deputy.docs.razin.ai",
+  "supportUrl": "mailto:hello@razin.ai",
+  "privacyPolicyUrl": "https://deputy.razin.ai/privacy",
+  "termsOfServiceUrl": "https://deputy.razin.ai/terms"
+}

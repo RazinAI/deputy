@@ -1,0 +1,20 @@
+{
+  "name": "razin",
+  "owner": {
+    "name": "Razin",
+    "email": "hello@razin.ai",
+    "url": "https://razin.ai"
+  },
+  "metadata": {
+    "description": "Razin's plugins for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "deputy",
+      "source": "./deputy",
+      "description": "Use the browser you already have open as typed tools: forms in one call, no screenshots needed. Free to start; Pro adds screenshots, console, network and hosted models. Needs the Deputy Chrome extension.",
+      "category": "productivity",
+      "homepage": "https://deputy.razin.ai"
+    }
+  ]
+}

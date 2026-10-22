@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "deputy": {
+      "command": "npx",
+      "args": ["-y", "deputy-mcp"]
+    }
+  }
+}
